@@ -1,0 +1,17 @@
+warna original RAPID
+tulisan
+=========
+#1bb1dc ganti #86b03c
+
+
+background
+===========
+#ebf1fa ganti #f2faeb
+#f5f8fd ganti #f2faeb
+
+call to action
+====
+#2d2b46 ganti #86b03c
+
+#0a98c0 ganti #7fc20a hover
+

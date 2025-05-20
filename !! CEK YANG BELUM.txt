@@ -1,0 +1,15 @@
+1. Log out tombol masih belum di ganti
+2. pesan setelah simpan belum ada (x)
+
+
+https://codeigniter.com/userguide3/helpers/form_helper.html?highlight=form_open
+
+
+Beranda (v)
+Tentang (v)
+Layanan (v)
+Dokter (v)
+Mutu
+Informasi
+Galery
+Download

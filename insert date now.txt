@@ -1,0 +1,48 @@
+To insert only date value, use curdate() in MySQL. With that, if you want to get the entire datetime, then you can use now() method.
+
+Let us first create a table −
+
+mysql> create table CurDateDemo
+   -> (
+   -> ArrivalDate datetime
+   -> );
+Query OK, 0 rows affected (0.74 sec)
+Now you can insert only date with the help of curdate() method −
+
+mysql> insert into CurDateDemo values(curdate());
+Query OK, 1 row affected (0.15 sec)
+Display the inserted date with the help of select statement. The query is as follows −
+
+mysql> select *from CurDateDemo;
+Here is the output −
+
++---------------------+
+| ArrivalDate         |
++---------------------+
+| 2018-11-23 00:00:00 |
++---------------------+
+1 row in set (0.00 sec)
+Let us now create a table and display the current datetime −
+
+mysql> create table NowDemo
+   -> (
+   -> ArrivalDate datetime
+   -> );
+Query OK, 0 rows affected (0.47 sec)
+Insert both date and time with the help of now().
+
+The query to insert record is as follows −
+
+mysql> insert into NowDemo values(now());
+Query OK, 1 row affected (0.16 sec)
+Let us now check whether the date and time is inserted or not. The query to display records is as follows −
+
+mysql> select *from NowDemo;
+The following is the output −
+
++---------------------+
+| ArrivalDate         |
++---------------------+
+| 2018-11-23 17:31:26 |
++---------------------+
+1 row in set (0.00 sec)
