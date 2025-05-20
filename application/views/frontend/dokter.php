@@ -4,7 +4,7 @@
     <section id="team" class="team">
 		<div class="container" data-aos="fade-up">
 			<header class="section-header">
-				<h3>Info Dokter</h3>
+				<h3>Info Dokter RSIG</h3>
 				<p>Kami Tim Dokter dokter pada <b><?= $nama ?></b> di RSI Gondanglegi</p>
 			</header>
 			<div class="row">
